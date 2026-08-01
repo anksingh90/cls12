@@ -1,6 +1,7 @@
 Practice Questions - 
 
-1. **[CBSE 2024 - 3 Marks]** Consider a list named Nums which contains random integers.  
+1. **[CBSE 2024 - 3 Marks]**  
+Consider a list named `Nums` which contains random integers.  
 Write the following user defined functions in Python and perform the specified operations on a stack named `BigNums`.  
 **(i) PushBig():** It checks every number from the list `Nums` and pushes all such numbers which have **5 or more digits** into the stack, `BigNums`.  
 **(ii) PopBig():** It pops the numbers from the stack, BigNums and displays them. The function should also display "Stack Empty" when there are no more numbers left in the stack.  
@@ -14,3 +15,28 @@ And on execution of PopBig (), the following output should be displayed:
 254923
 10025
 Stack Empty
+
+---
+
+2. **[CBSE 2025 : Compartment - 3 Marks]**
+A stack named **KeyStack** contains records of some computer keyboards. Each record is represented as a list containing **Make, Keys, Connectivity**. The **Make** and **Connectivity** are strings, and **Keys** is an integer. For example, a record in the stack may be `('Hitech', 105, 'USB')`.  
+Write the following user-defined functions in Python to perform the specified operations on **KeyStack** :  
+- (i) **push_key(KeyStack, new_key):** This function takes the stack **KeyStack** and a new record **new_key** as arguments and pushes this new record onto the stack.
+- (ii) **pop_key(KeyStack):** This function pops the topmost record from the stack and returns it. If the stack is already empty, the function should display the message “Underflow”.
+- (iii) **isEmpty(KeyStack):** This function checks whether the stack is empty. If the stack is empty, the function should return True, otherwise the function should return False.
+
+---
+
+3. **[CBSE 2025 : Compartment - 3 Marks]**  
+Write the following user-defined functions in Python :
+- (i) **push_vowels(S,St):** Here S is a string and St is a list representing a stack. The function should push all the vowels of the string S onto the stack St. For example, if the string S is **"Easy Concepts"**, then the function `push_vowels()` should push the elements `'E','a','o','e'` onto the stack.
+- (ii) **pop_one(St):** The function should pop an element from the stack St, and return this element. If the stack is empty, then the function should display the message **‘Stack Underflow’**, and return None.
+- (iii) **display_all(St):** The function should display all the elements of the stack **St**, without deleting them. If the stack is empty, the function should display the message ‘Empty Stack’.
+
+
+
+
+
+
+
+
