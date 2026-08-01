@@ -1,6 +1,6 @@
 Practice Questions - 
 
-**1. [CBSE 2024 - 3 Marks]** Consider a list named Nums which contains random integers.  
+1. **[CBSE 2024 - 3 Marks]** Consider a list named Nums which contains random integers.  
 Write the following user defined functions in Python and perform the specified operations on a stack named `BigNums`.  
 **(i) PushBig():** It checks every number from the list `Nums` and pushes all such numbers which have **5 or more digits** into the stack, `BigNums`.  
 **(ii) PopBig():** It pops the numbers from the stack, BigNums and displays them. The function should also display "Stack Empty" when there are no more numbers left in the stack.  
