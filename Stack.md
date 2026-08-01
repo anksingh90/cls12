@@ -33,7 +33,15 @@ Write the following user-defined functions in Python :
 - (ii) **pop_one(St):** The function should pop an element from the stack St, and return this element. If the stack is empty, then the function should display the message **‘Stack Underflow’**, and return None.
 - (iii) **display_all(St):** The function should display all the elements of the stack **St**, without deleting them. If the stack is empty, the function should display the message ‘Empty Stack’.
 
+---
 
+4. **[CBSE 2026 - 3 Marks]**  
+- A stack named **FruitStack**, implemented using list, contains records of some fruits. Each record is represented as a dictionary with keys **‘Name’, ‘Origin’, ‘Price’, and ‘Expiry’**. A sample record is given here :  
+`{'Name':'Apple','Origin':'France','Price':120, 'Expiry':'12-08-2025'}`  
+Write the following user-defined functions in Python to perform the specified operations on **FruitStack** :  
+- (i) **push_fruit(FruitStack, Fruit):** This function takes the stack FruitStack and a new record Fruit as arguments and pushes the record stored in Fruit onto FruitStack if the Price is less than 100.
+- (ii) **pop_fruit(FruitStack):** This function pops the topmost record from the stack and returns it. If the stack is already empty, the function should display **“UNDERFLOW”**.
+- (iii) **display(FruitStack):** This function displays all the elements of the stack starting from the topmost element. If the stack is empty, the function should display **‘EMPTY STACK’**.
 
 
 
